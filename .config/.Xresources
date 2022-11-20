@@ -1,0 +1,46 @@
+Xcursor.theme: oreo_spark_orange_cursors
+Xcursor.size: 32
+
+!# dwm colors
+dwm.normbordercolor: #1E1D23
+dwm.normbgcolor: #1E1D23
+dwm.normfgcolor: #938884
+dwm.selbordercolor: #7EC49D
+dwm.selbgcolor: #1E1D23
+dwm.selfgcolor: #EFD472
+
+*background: #1E1D23
+*foreground: #DED7D0
+ 
+!# Black
+*color0: #29292E
+*color8: #938884
+ 
+!# Red
+*color1: #FF7DA3
+*color9: #FF7DA3
+ 
+!# Green
+*color2: #7EC49D
+*color10: #7EC49D
+ 
+!# Yellow
+*color3: #EFD472
+*color11: #EFD472
+ 
+!# Blue
+*color4: #8BB8D0
+*color12: #8BB8D0
+ 
+!# Magenta
+*color5: #B898DD
+*color13: #B898DD
+ 
+!# Cyan
+*color6: #BAF2D8
+*color14: #BAF2D8
+ 
+!# White
+*color7: #DED7D0
+*color15: #DED7D0
+

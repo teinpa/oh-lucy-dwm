@@ -1,0 +1,8 @@
+set default-fg      "#7ec49d"
+set default-bg      "#1e1d23"
+set statusbar-bg    "#938884"
+set statusbar-fg    "#ded7d0"
+
+set adjust-open "best-fit"
+
+set font "Operator Mono 10"

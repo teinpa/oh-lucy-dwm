@@ -145,8 +145,8 @@ static const Layout layouts[] = {
 /* dmenu */
 static const char *dmenucmd[] = {
 	"dmenu_run",
-	"-X", "10",
-	"-Y", "10",
+	"-X", "15",
+	"-Y", "5",
 	"-W", "2540",
 	"-p", " RUN : ",
 	NULL};

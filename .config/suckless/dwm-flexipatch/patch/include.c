@@ -14,6 +14,7 @@
 #include "cfacts.c"
 #include "floatpos.c"
 #include "focusdir.c"
+#include "fullscreen.c"
 #include "movestack.c"
 #include "pertag.c"
 #include "push.c"

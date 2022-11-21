@@ -894,6 +894,9 @@ createmon(void)
 		m->pertag->ltidxs[i][1] = m->lt[1];
 		m->pertag->sellts[i] = m->sellt;
 
+		m->pertag->enablegaps[i] = 1;
+		m->pertag->gaps[i] =
+			((gappoh & 0xFF) << 0) | ((gappov & 0xFF) << 8) | ((gappih & 0xFF) << 16) | ((gappiv & 0xFF) << 24);
 	}
 
 	restoremonitorstate(m);
@@ -2299,11 +2302,8 @@ updatebarpos(Monitor *m)
 	Bar *bar;
 	int y_pad = 0;
 	int x_pad = 0;
-	if (enablegaps)
-	{
-		y_pad = gappoh;
-		x_pad = gappov;
-	}
+	y_pad = vertpad;
+	x_pad = sidepad;
 
 
 	for (bar = m->bar; bar; bar = bar->next) {

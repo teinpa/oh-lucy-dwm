@@ -15,7 +15,7 @@ autoload -U colors && colors
 
 # setopt promptsubst
 
-# export STARSHIP_CONFIG=~/.config/starship/bubble.toml
+export PF_SOURCE="${HOME}/.zshenv"
 
 export FZF_DEFAULT_OPTS='--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f8f8f2,bg+:#44475a,hl+:#bd93f9 --color=info:#ffb86c,prompt:#50fa7b,pointer:#ff79c6 --color=marker:#ff79c6,spinner:#ffb86c,header:#6272a4'
 
@@ -38,8 +38,4 @@ source $slim_path/correction.zsh
 source $slim_path/sudo.plugin.zsh
 source $slim_path/stack.zsh
 source $slim_path/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-# source $slim_path/powerlevel10k/powerlevel10k.zsh-theme
-
-
-# eval "$(starship init zsh)"
 

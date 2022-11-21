@@ -29,7 +29,7 @@ shotarea () {
   notify_user
 }
 
-SHOT=$(echo -e "fullscreen\nwindow\narea\ncancel" | dmenu -nb "#1e1d23" -nf "#8bb8d0" -sb "#8bb8d0" -sf "#1e1d23" -X 10 -Y 7 -W 2150 -p "CAPTURE:")
+SHOT=$(echo -e "fullscreen\nwindow\narea\ncancel" | dmenu -nb "#1e1d23" -nf "#8bb8d0" -sb "#8bb8d0" -sf "#1e1d23" -X 15 -Y 5 -W 2150 -p "CAPTURE:")
 
 case $SHOT in
   fullscreen) shotnow ;;

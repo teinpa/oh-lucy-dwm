@@ -15,9 +15,9 @@ autoload -U colors && colors
 
 # setopt promptsubst
 
-export PF_SOURCE="${HOME}/.zshenv"
+export PF_SOURCE="${HOME}/.config/.zshenv"
 
-export FZF_DEFAULT_OPTS='--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f8f8f2,bg+:#44475a,hl+:#bd93f9 --color=info:#ffb86c,prompt:#50fa7b,pointer:#ff79c6 --color=marker:#ff79c6,spinner:#ffb86c,header:#6272a4'
+export FZF_DEFAULT_OPTS='--color=fg:#DED7D0,bg:#1E1D23,hl:#EFD472 --color=fg+:#DED7D0,bg+:#413E41,hl+:#7EC49D --color=info:#8BB8D0,prompt:#7EC49D,pointer:#FF7DA3 --color=marker:#FF7DA3,spinner:#EFD472,header:#938884'
 
 autoload -Uz compinit
 compinit -C
